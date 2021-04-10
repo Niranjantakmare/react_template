@@ -3,6 +3,8 @@ import React from 'react'
 import { Counter } from './Counter'
 
 const App = () => {
+  const num = "ds";
+  
   return (
     <>
       <h1>
