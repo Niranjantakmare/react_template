@@ -1,5 +1,17 @@
-import React from 'react';
+import './styles.css'
+import React from 'react'
+import { Counter } from './Counter'
 
-export const App = () => {
-    return <h1>React Typescript Webpack Start-up Template</h1>
+const App = () => {
+  return (
+    <>
+      <h1>
+        React EDITED Typescript Webpack Start-up Template -{' '}
+        {process.env.NODE_ENV} - {process.env.name}
+      </h1>
+      <Counter></Counter>
+    </>
+  )
 }
+
+export default App
